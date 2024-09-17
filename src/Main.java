@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
 public class Main {
 
 	public static void main(String[] args) {
@@ -13,10 +15,16 @@ public class Main {
 		 */
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Welcome to Mad Libs!");
-		System.out.println("What's your name?");
+		System.out.println("Welcome to :< Libs!");
+		System.out.println("Hello");
+		System.out.println("Enter a name?");
 		String name = in.nextLine();
-		System.out.println("One day, "+name+" wrote a Mad Lib in class!");
+		System.out.println("What animal pops into you head? When you think of the word flight.");
+		String animal = in.nextLine();
+		System.out.println("This animal is being hunted by a 2 legged creature");
+		String book = in.nextLine();
+		System.out.println(name+" the " +animal+ "is being hunted by the Jack the Hunter of Tousand Tiger Tails");
+		System.out.println("During this time Jack the hunter teaches chases the creatures and reads the book called " +book+ ".");
 
 	}
 
